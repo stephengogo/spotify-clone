@@ -50,7 +50,7 @@ function App() {
     
   }, []);
   // Test to see is dispatch works 
-  //console.log("human", token);
+  // console.log("human", token);
   //console.log('ALIEN', user);
 
   return (
