@@ -7,6 +7,13 @@
     transition: 200ms color ease-in;
 }
 
+/* horizontal row below playlist */
+.sidebar > hr {
+    border: 1px solid #282828;
+    width: 90%;
+    margin: 10px auto;
+  }
+
 /* on hover makes titles white WOWZ */
 .sidebarOption:hover {
     color: white;
@@ -16,3 +23,10 @@
     padding-left: 10px;
     padding-right: 10px;
 }
+
+/* playlist css */
+.sidebarOption > p {
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 14px;
+  }
